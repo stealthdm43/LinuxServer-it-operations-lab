@@ -8,7 +8,7 @@ Repurpose a used Dell OptiPlex 3060 as a dedicated Linux server for a hands-on I
 
 ## Environment
 
-| Component | Configuration |
+| Component | Configuration | 
 | --- | --- |
 | Server hardware | Dell OptiPlex 3060 |
 | Operating system | Ubuntu Server 26.04.1 LTS |
