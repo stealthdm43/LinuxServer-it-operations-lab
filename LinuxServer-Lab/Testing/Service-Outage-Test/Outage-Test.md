@@ -106,7 +106,7 @@ networks:
     external: true
 ```
 
-The [Uptime Kuma Compose file](../../monitoring/uptime-kuma/compose.yaml) declares the same network. Because it is external, the network must exist before deploying these stacks (`docker network create lab-monitoring`).
+The Uptime Kuma Compose file declares the same network. Because it is external, the network must exist before deploying these stacks (`docker network create lab-monitoring`).
 
 ![Validated Compose configuration with persistent shared network](screenshots/10-persistent-network-compose.png)
 
