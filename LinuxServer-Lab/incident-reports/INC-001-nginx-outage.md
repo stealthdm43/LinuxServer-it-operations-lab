@@ -73,4 +73,4 @@ Checked running containers with `sudo docker ps` and observed Uptime Kuma return
 
 ## 8. Final outcome
 
-**PASS —** Uptime Kuma detected the intentional service interruption; Docker was used to restart Nginx; Uptime Kuma confirmed service restoration. See [full lab walkthrough](LinuxServer-Lab/Testing/Service-Outage-Test/Outage-Test.md).
+**PASS —** Uptime Kuma detected the intentional service interruption; Docker was used to restart Nginx; Uptime Kuma confirmed service restoration. See [full lab walkthrough](https://github.com/stealthdm43/LinuxServer-it-operations-lab/blob/main/LinuxServer-Lab/Testing/Service-Outage-Test/Outage-Test.md).
