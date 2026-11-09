@@ -35,7 +35,6 @@ These are recorded timeline values, not independently measured service-response 
 - **Observed condition:** Monitor transitioned from UP to DOWN, displaying `ENOTFOUND lab-nginx` while the container was stopped, then returned to UP after restoration.
 - **Impact:** Test HTTP endpoint unavailable to the monitoring client. No production users or systems were affected.
 
-![Monitor DOWN during controlled outage](LinuxServer-Lab/Testing/Service-Outage-Test/screenshots/07-outage-detected.png)
 
 ## 4. Root cause
 
@@ -57,7 +56,6 @@ sudo docker start lab-nginx
 
 Checked running containers with `sudo docker ps` and observed Uptime Kuma return the endpoint to UP with an HTTP success response.
 
-![Monitor UP after recovery](../testing/nginx/screenshots/09-recovery-confirmed.png)
 
 ## 6. Lessons learned
 
@@ -75,4 +73,4 @@ Checked running containers with `sudo docker ps` and observed Uptime Kuma return
 
 ## 8. Final outcome
 
-**PASS —** Uptime Kuma detected the intentional service interruption; Docker was used to restart Nginx; Uptime Kuma confirmed service restoration. See [full lab walkthrough](../testing/nginx/README.md).
+**PASS —** Uptime Kuma detected the intentional service interruption; Docker was used to restart Nginx; Uptime Kuma confirmed service restoration. See [full lab walkthrough]().
