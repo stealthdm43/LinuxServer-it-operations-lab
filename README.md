@@ -6,7 +6,8 @@ Hands-on Linux IT operations lab focused on server administration, Docker contai
 
 | Component | Demonstrated work | Documentation |
 |---|---|---|
-| Server infrastructure | Ubuntu Server installation, SSH administration, DHCP reservation, network verification | [Infrastructure]() |
+| Server infrastructure | Ubuntu Server installation, SSH administration, DHCP reservation, network verification | [Infrastructure](LinuxServer-Lab/Infrastructure/Server-Setup
+/Server-Setup.md) |
 | Container platform | Docker official APT repository, GPG key verification, Engine/Compose installation, hello-world test | [Docker]() |
 | Availability monitoring | Uptime Kuma deployment with persistent volume, SSH tunnel, TCP/HTTP monitors, shared bridge network | [Uptime Kuma]() |
 | Incident testing | Dockerized Nginx, HTTP validation, controlled outage and recovery, network configuration | [Nginx test lab]() |
